@@ -1,0 +1,28 @@
+
+
+  .column {
+    float: left;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h1{
+    color: blue;
+    font-size: medium;
+    text-align: center;
+  }
+  h2{
+    color: rgb(255, 94, 0);
+    font-size: medium;
+    text-align: center;
+  }
+  h3{
+    color: rgb(0, 255, 21);
+    font-size: medium;
+    text-align: center;
+  }
